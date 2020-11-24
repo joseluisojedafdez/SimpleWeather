@@ -40,5 +40,6 @@ temperatura y unidad que serán utilizados en la interfaz
         ActivityMainBinding binding = DataBindingUtil.setContentView(this,R.layout.activity_main);
         DailyWeather clima=new DailyWeather("Santiago","24/11/2020","25",getDrawable(R.drawable.ic_baseline_wb_sunny_24));
         binding.setClimaDiario(clima);
+        binding.imgClima.setImageDrawable(clima.getImagenClima());
     }
 }

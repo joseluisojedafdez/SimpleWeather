@@ -73,8 +73,7 @@
         app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_Ciudad"
-        app:srcCompat="@drawable/ic_baseline_wb_sunny_24"
-        tools:srcCompat="@drawable/ic_baseline_wb_sunny_24" />
+        tools:srcCompat="@drawable/ic_sky_cloud" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
